@@ -13,11 +13,11 @@
 
 nav {
     position: sticky;
-    height: 160px;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #484D9E;
+    background-color: #1a1929;
     padding: 10px 100px;
 
 }
@@ -48,13 +48,14 @@ nav {
 
 .logo-links a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 3vh;
+    font-weight: 600;
 }
 
 .home {
     font-family: "Poppins";
     font-weight: 500;
-    height: 550px;
+    height: 80vh;
     width: 100%;
     background-color: #1a1929;
     display: flex;
@@ -64,7 +65,7 @@ nav {
 }
 
 .home-info {
-    font-weight: 400;
+    font-weight: 600;
     cursor: default;
     height: auto;
     /* background-color: aqua; */
@@ -79,14 +80,14 @@ nav {
 .home-info h4 {
     text-align: center;
     color: rgb(232, 230, 230);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 550;
     letter-spacing: 0.05rem;
 }
 .home-info h2 {
     margin: 8px 0;
     font-weight: 600;
-    font-size: 2.1rem;
+    font-size: 3rem;
 }
 
 .home-info p {
@@ -127,14 +128,14 @@ nav {
 .connect h1 {
     font-family: "Poppins", sans-serif;
     /* margin-left: 300px; */
-    font-size: 5rem;
+    font-size: 7rem;
     color: #1a1929;
     text-transform: uppercase;
     font-weight: 700;
     /* font-weight: bolder; */
     /* width: 30%; */
     font-family: "Poppins";
-    line-height: 5.5rem;
+    line-height: 8rem;
     margin-right: 10px;
     cursor: default;
 }
@@ -162,6 +163,7 @@ nav {
     color: black;
     margin: 10px 0;
     width: 90%;
+    font-size: 2vh;
 }
 
 .connect-content h3 {
@@ -190,4 +192,258 @@ nav {
     color: #484D9E;
 }
 
+.service-info p{
+    font-size: 5vh;
+    text-align: center;
+    
+}
+.lastpara{
+  margin-bottom: 100px
+}
+.about{
+    display: flex;
+    justify-content: center;
+    
+}
+.about h2{
+    text-align: center;
+    color: #484D9E;
+}
+.about-info{
+    width: 38%;
+}
+.about-info p{
+    font-size: 2.4vh;
+    text-align: center;
+   
+}
+.contact{
+    display: flex;
+    width: 100%;
 
+}
+.ctn-left{
+    /* background-color: #07074d; */
+    width: 45%;
+    margin: 0 7vh;
+}
+.ctn-right{
+    background-size: cover;
+    width: 50%;
+    margin-right: 20vh;
+    
+}
+.ctn-left img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-right: 9vh;
+}
+.formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #484D9E;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    background-color: transparent;
+    border: 1px solid #484D9E;
+    color: #07074d;
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+   
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
