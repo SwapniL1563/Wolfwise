@@ -113,7 +113,15 @@ nav {
     background-color: transparent;
     border: 1px solid white;
 }
-
+.btn-nav{
+  padding: 1vh 3.3vh;
+  background-color: #FF00A8;
+  font-size: 3vh;
+  border-radius: 22px;
+  border: 2px solid transparent;
+  outline: none;
+  font-weight: 600;
+}
 
 .connect {
     height: 600px;
@@ -188,8 +196,8 @@ nav {
 
 .connect-content button:hover {
     background-color: transparent;
-    border: 2px solid #484D9E;
-    color: #484D9E;
+    border: 2px solid #1a1929;
+    color: #1a1929;
 }
 
 .service-info p{
@@ -302,7 +310,7 @@ nav {
   }
   .formbold-btn:hover {
     background-color: transparent;
-    border: 1px solid #484D9E;
+    border: 2px solid #484D9E;
     color: #07074d;
   }
 
@@ -446,4 +454,163 @@ nav {
     100% {
       background-positon-x: 0px;
     }
+  }
+  .ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-decoration: none;
+  
+    padding: 50px 0;
+  }
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+  
+    margin: 0 15px 30px;
+  
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 28px;
+  }
+  .ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: #1a1929;
+  
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+  }
+  .ag-courses-item_link:hover,
+  .ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  .ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+  
+    overflow: hidden;
+  
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+
+  .ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #484D9E;
+  
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+  
+    border-radius: 50%;
+  
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  /* style="font-size:2.5vh; margin-top:1vh; color: #FF00A8; z-index: 0;" */
+  .ag-courses-item_title p{
+    font-size: 3vh;
+    /* margin-top: 1vh; */
+    color: #1a1929;
+    width: 100%;
+    display: none;
+  }
+  .ag-courses_item:hover p{
+   display: block;
+
+
+  }
+  .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #484D9E;
+  }
+  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #484D9E;
+  }
+ 
+  
+  
+  
+  @media only screen and (max-width: 979px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
+    }
+    .ag-courses-item_title {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .ag-courses_item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .ag-courses-item_title {
+      min-height: 72px;
+      line-height: 1;
+  
+      font-size: 24px;
+    }
+    .ag-courses-item_link {
+      padding: 22px 40px;
+    }
+    .ag-courses-item_date-box {
+      font-size: 16px;
+    }
+  }
+
+  .logo-links a{
+    position: relative;
+  }
+
+  .logo-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    z-index: 100;
+    color: #FF00A8;
+  }
+  
+  .logo-links a:hover::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: white;
+    color: #FF00A8;
   }
