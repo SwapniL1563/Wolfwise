@@ -131,6 +131,7 @@ nav {
 }
 
 .home-info {
+  overflow:hidden;
   font-weight: 600;
   width: 60%;
   cursor: default;
