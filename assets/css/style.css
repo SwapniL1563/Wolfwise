@@ -874,9 +874,9 @@ nav {
 
 
 @media only screen and (max-width: 979px) {
-html{
+/* html{
   overflow-x: hidden;
-}
+} */
 
   .ag-format-container {
     margin: 0 5vh;
