@@ -118,7 +118,7 @@ nav {
 }
 
 html{
-  overflow:hidden;
+  overflow-x:hidden;
 }
 
 .home {
@@ -135,6 +135,7 @@ html{
 }
 
 .home-info {
+  margin-left:100px;
   overflow:hidden;
   font-weight: 600;
   width: 60%;
@@ -175,10 +176,10 @@ html{
 
 .home-img {
   margin: 0 0 0 0;
-  width: 40%;
-  /* width: 600px; */
+/*   width: 40%; */
+  width: 600px;
   /* background-color: rebeccapurple; */
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 .home-img img {
@@ -603,6 +604,7 @@ html{
   color: white;
   width: 100%;
   cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .formbold-btn:hover {
@@ -875,6 +877,9 @@ html{
 
 
 @media only screen and (max-width: 979px) {
+  html{
+    overflow-x:hidden;
+  }
   .ag-format-container {
     margin: 0 5vh;
   }
